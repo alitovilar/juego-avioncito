@@ -30,7 +30,13 @@ max_edif = 5
 speed_x = 2
 speed_y = 3
 Vidas = 3
-you_win = False                                    
+you_win = False
+
+#Icono y titulo
+pygame.display.set_caption("Avioncito")
+icono=pygame.image.load("assets/images/avion5.png")
+pygame.display.set_icon(icono)
+
 
 def draw_text(surface, text, size, x, y):
     font = pygame.font.SysFont("serif", size)
